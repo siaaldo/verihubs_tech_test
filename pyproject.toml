@@ -8,6 +8,8 @@ dependencies = [
     "pandas>=2.0.3",
     "kagglehub>=0.3.7",
     "filelock>=3.12.2",
+    "dagster-webserver>=1.12.1",
+    "dagster-dg-cli>=1.12.1",
 ]
 
 [dependency-groups]

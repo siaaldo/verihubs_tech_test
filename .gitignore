@@ -144,6 +144,13 @@ ENV/
 env.bak/
 venv.bak/
 
+# data directory -> to ensure the download flow in dagster flow
+# database -> to ensure the materization in dagster will working just fine
+data
+data/
+database
+database/
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -201,3 +208,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dagster Temporary Dev Files
+.tmp*
+
+
