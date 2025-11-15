@@ -1,7 +1,0 @@
-[32m2025-11-12 00:32:38 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6e0bad4d-c53e-42ea-aa99-40b6b2939798 - 39859 - LOGS_CAPTURED - Started capturing logs in process (pid: 39859).
-[32m2025-11-12 00:32:38 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6e0bad4d-c53e-42ea-aa99-40b6b2939798 - 39859 - download_data - STEP_START - Started execution of step "download_data".
-[32m2025-11-12 00:32:39 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6e0bad4d-c53e-42ea-aa99-40b6b2939798 - 39859 - download_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2025-11-12 00:32:39 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6e0bad4d-c53e-42ea-aa99-40b6b2939798 - download_data - Writing file at: /Users/aldodwicahyo/verihub/verihubs/.tmp_dagster_home_k3fi9f2f/storage/download_data using PickledObjectFilesystemIOManager...
-[32m2025-11-12 00:32:39 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6e0bad4d-c53e-42ea-aa99-40b6b2939798 - 39859 - download_data - ASSET_MATERIALIZATION - Materialized value download_data.
-[32m2025-11-12 00:32:39 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6e0bad4d-c53e-42ea-aa99-40b6b2939798 - 39859 - download_data - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2025-11-12 00:32:39 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 6e0bad4d-c53e-42ea-aa99-40b6b2939798 - 39859 - download_data - STEP_SUCCESS - Finished execution of step "download_data" in 969ms.
