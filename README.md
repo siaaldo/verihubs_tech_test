@@ -92,3 +92,44 @@ Based on this daily order by status, it seems like it has kind of *seasonal* ord
 
 Based on total revenue we can easily tell April is the most profitable month in the dataset and the trend is declined from month to month until June.
 
+-------------------------------------
+
+## Additional Findings
+
+### Summary 
+
+**1. Order Status**
+
+| Status Category | Unique Order Count | Percentage |
+| --- | --- | --- |
+| Shipped Success | 99373 | 82.57 |
+| Cancelled or Unsuccess | 19173 | 15.93 |
+| On Progress | 1220 | 1.01 |
+| Pending | 584 | 0.49 |
+
+Based on summary above, we know that among all orders, we have ~16% order that Cancelled or Unsuccess, money wise we lost INR 8 Million. This is a huge loss and we need to figure it why does this happen by
+
+Assuming the data is available, data that we need to check are:
+- Check the reason behinds cancellation
+- Observe and compare time-to-ship for Shipped order and Shipped back with same postal code.
+
+**2. B2B Opportunity**
+
+
+| B2B | Amount | Order ID |
+| --- | --- | --- |
+| False | 77982786.51 | 119556 |
+| True | 591220.79 | 794 |
+
+From here we can really tell that B2B Amount per order is +14.16% more than B2C, this indicating there is a good opportunity to try to push into B2B business. But i think doing business with B2C and B2B is total different game.
+
+Assuming the data is available, data that we need to check are:
+- Historical data about how can we get the B2B deals.
+- Qualitative data from other team (sales or marketing) about the effort to get this.
+- Time from first approach-to-deal with this B2B.
+
+**3. Most Ordered by City**
+
+![image](readme_image/histogram_amount_per_order.png)
+
+From the histogram chart above, we can know that the ranges of Average sales per order for every city after categorized is not that extreme which is only 80 INR ranges. Meaning that our sales is quite-well distributed to all city available.
