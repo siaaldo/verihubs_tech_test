@@ -1,6 +1,6 @@
 # Verihubs Technical Test
 
-This repository is dedicated to deliver all requirements for [verihubs technical test](https://docs.google.com/document/d/1Ipl2y1xfPakl40nlZjB-Iw7EkZeAm3Cg7_yaFBVibao/edit?tab=t.0). This README.md will guide users to install and run *Verihubs Project* to be able running the data pipeline and then the visualization and findings from that data.
+This repository is dedicated to deliver all requirements for verihubs technical test. This README.md will guide users to install and run *Verihubs Project* to be able running the data pipeline and then the visualization and findings from that data.
 
 ---------------------------------------------
 
